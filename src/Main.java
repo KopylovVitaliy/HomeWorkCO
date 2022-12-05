@@ -4,6 +4,9 @@ public class Main {
         task2 ();
         task3 ();
         task4();
+        task5();
+        task6();
+        task7();
     }
 
     public static void task1 () {
@@ -53,7 +56,38 @@ public class Main {
         } else if (age > 24) {
             System.out.println("Усли возраст человека больше " + age + " лет, то ему пора ходить на работу.");
         }
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+
+        byte age = 14;
+
+        if (age < 5) {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему нельзя кататься на атракционе.");
+        } else if (age >= 5 && age < 14) {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на атракционе в сопровождении взрослого.");
+        } else if (age >= 14) {
+            System.out.println("Если возраст ребёнка равен " + age + ", то ему можно кататься на атракционе без сопровождения.");
+        }
+    }
+    public static void task6() {
+        System.out.println("Задача 6");
+
+        short capacityTrain = 102;
+        short sittingPlace = 60;
+        short passengers = 1;
+
+        if (passengers >= capacityTrain) {
+            System.out.println("В вагоне нет свободных мест");
+        } else if (passengers < capacityTrain && passengers >= sittingPlace) {
+            System.out.println("В вагоне только стоячие места");
+        } else if ( passengers < sittingPlace) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+    }
+    public static void task7(){
+        System.out.println("Задача 7");
+
 
     }
-
 }
