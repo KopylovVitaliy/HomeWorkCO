@@ -30,7 +30,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задача 3");
 
-        short speed = 90;
+        short speed = 70;
 
         if(speed > 60) {
             System.out.println("Если скорость " + speed + " км/ч, то придётся заплатить штраф.");
