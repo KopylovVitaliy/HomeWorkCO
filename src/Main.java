@@ -88,6 +88,16 @@ public class Main {
     public static void task7(){
         System.out.println("Задача 7");
 
+        int one = 1000;
+        int two = 620;
+        int three = 290;
 
+        if (one > two && one > three) {
+                System.out.println("Наибольшее число " + one);
+        } else if (two > one && two > three) {
+                System.out.println("Наибольшее число " + two);
+        } else if (three > two && three > one) {
+                System.out.println("Наибольшее число " + three);
+        }
     }
 }
